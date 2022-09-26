@@ -1,5 +1,35 @@
-body {
-  width: 100%;
+header {
+  background-color: #000;
+  width: 100vw;
+  height: 80px;
+  font-family: "Roboto";
+}
+header nav ul {
+  width: 1160px;
+  color: #fff;
+  height: 80px;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+}
+header nav ul li:nth-child(2) {
+  margin-left: 53px;
+}
+header nav ul li {
+  list-style: none;
+  margin-left: 58px;
+  font-size: 16px;
+}
+header nav ul li:hover a {
+  color: #F9804B;
+}
+header nav ul li a {
+  line-height: 22.4px;
+  color: inherit;
+  text-decoration: none;
+}
+header nav ul li:nth-last-child(1) {
+  margin-left: auto;
 }
 
 /*# sourceMappingURL=style.css.map */
