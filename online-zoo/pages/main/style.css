@@ -3,6 +3,8 @@ header {
   width: 100vw;
   height: 80px;
   font-family: "Roboto";
+  z-index: 2;
+  position: relative;
 }
 header nav ul {
   width: 1160px;
@@ -30,6 +32,64 @@ header nav ul li a {
 }
 header nav ul li:nth-last-child(1) {
   margin-left: auto;
+}
+
+.firstSection {
+  max-width: 1600px;
+  margin: 0 auto;
+  position: relative;
+}
+.firstSection .backgroundImage img {
+  margin: -80px 0 0 0;
+  position: relative;
+  z-index: 1;
+}
+.firstSection .content {
+  position: absolute;
+  z-index: 3;
+  top: 12px;
+  right: 328px;
+}
+.firstSection .content .circle {
+  width: 465px;
+  height: 465px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 50%;
+}
+.firstSection .content .circle h1 {
+  margin: 0;
+  padding: 74px 0 0 73px;
+  text-transform: uppercase;
+  font-family: "Roboto";
+  line-height: 75%;
+  text-align: center;
+  font-weight: 700;
+  font-style: normal;
+  color: #fff;
+  width: 500.31px;
+  font-size: 106.496px;
+}
+.firstSection .content .circle h1 span {
+  color: #FFEE2E;
+}
+.firstSection .content .button {
+  margin: 76px 0 0 auto;
+  width: 298px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+}
+.firstSection .content .button p {
+  text-align: center;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 54px;
+  /* or 22px */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
 /*# sourceMappingURL=style.css.map */
