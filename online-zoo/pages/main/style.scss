@@ -13,6 +13,8 @@ body{
 }
 .navigator{
     background-color: #000;
+
+    margin: 0 auto;
     width:100vw;
     max-width: $maxSize;
     height:$headerSize;
@@ -128,6 +130,7 @@ body{
     width:100vw;
     max-width: $maxSize;
     padding:100px 140px 140px 138px;
+    margin:0 auto;
     position: relative;
     .bottomButton{
         width: 298px;
@@ -254,3 +257,116 @@ body{
 
 
 // /secondSection
+
+// footer
+
+
+footer{
+    width:100vw;
+    height:443px;
+    margin:0 auto;
+    max-width: $maxSize;
+    padding-top: 41px;
+    padding-bottom: 50px;
+    background-color: #111115;
+    .content{
+        width:1160px;
+        margin:0px auto 0 auto;
+        height:352px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        color:#fff;
+        // column-gap: 101px,32px;
+        ul{
+            li{
+                list-style: none;
+                font-weight: 400;
+                font-size: 16px;
+                a{
+                    text-decoration: none;
+                    color:#fff;
+                }
+            }
+        }
+
+        .left{
+            .button{
+                text-align: center;
+                width: 298px;
+                height: 54px;
+                border-radius: 5px;
+                background-color: $orange;
+                margin:68px 0 44px 0;
+                p{
+
+                    text-transform: uppercase;
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 54px;
+                    color:#fff;
+                }
+            }
+        }
+
+        .middle{
+            display: flex;
+            flex-direction: row;
+            align-items: flex-end;
+            ul{
+                display: flex;
+                width:362px;
+                justify-content: space-between;
+            }
+        }
+
+        .right{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            .top{
+                p:nth-child(1){
+                    font-weight: 400;
+                    font-size: 24px;
+                }
+                form{
+                    input{
+                        outline: none;
+                    }
+                    input:nth-child(1){
+                        width:228px;
+                        height:42px;
+                        border:1px solid $orange;
+                        background-color: transparent;
+                        padding: 10px;
+                        color:#BDBDBD;
+                        &[placeholder]{
+                            color:#BDBDBD
+                        }
+                    }
+
+                    input:nth-child(2){
+                        border:none;
+                        margin-left:10px;
+                        width:129px;
+                        border-radius:5px;
+                        background-color: #F1F3F2;
+                        height:42px;
+                        text-align: center;
+                    }
+                }
+            }
+
+            .bottom{
+                p{
+                    text-align: right;
+                    font-weight: 100;
+                    font-size: 16px;
+                    margin-top:10px;
+                }
+            }
+        }
+
+    }
+}
+
+// /footer
