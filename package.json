@@ -1,0 +1,25 @@
+{
+  "dependencies": {
+    "normalize.css": "^8.0.1"
+  },
+  "name": "-archiangels-jsfe2022q3-private-",
+  "description": "Private repository for @archiangels",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "maybe":"sass ./online-zoo/pages/donate/style.scss ./online-zoo/pages/donate/style.css && sass ./online-zoo/pages/main/style.scss ./online-zoo/pages/main/style.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ArchiAngels/-archiangels-JSFE2022Q3-private-.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ArchiAngels/-archiangels-JSFE2022Q3-private-/issues"
+  },
+  "homepage": "https://github.com/ArchiAngels/-archiangels-JSFE2022Q3-private-#readme"
+}
