@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Roboto";
   font-style: normal;
@@ -318,6 +319,107 @@ body {
   line-height: 54px;
   font-weight: 500;
   font-size: 16px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+
+.fourthSection {
+  width: 100vw;
+  max-width: 1600px;
+  margin: 0 auto;
+  height: 919px;
+  position: relative;
+}
+.fourthSection .picture {
+  position: absolute;
+  bottom: -109px;
+  right: 0;
+}
+.fourthSection .contentContainer {
+  width: 1160px;
+  height: 575px;
+  margin: 0 auto;
+}
+.fourthSection .contentContainer .content h2 {
+  font-weight: 400;
+  font-size: 36px;
+  line-height: 47px;
+  text-align: center;
+  color: #333B41;
+}
+.fourthSection .contentContainer .content .carousele {
+  margin: 47px 0 39px 0;
+  overflow-x: hidden;
+}
+.fourthSection .contentContainer .content .carousele .items {
+  padding: 0 0 21px 0;
+  overflow-x: scroll;
+  display: flex;
+  min-width: 1162px;
+}
+.fourthSection .contentContainer .content .carousele .items .item:not(.item:nth-last-child(1)) {
+  margin-right: 30px;
+}
+.fourthSection .contentContainer .content .carousele .items .item {
+  flex: 0 0 268px;
+  padding: 15px 16px;
+  border-style: solid;
+  background: #F1F3F2;
+  width: 268px;
+  height: 391px;
+  border: double 2px transparent;
+  border-radius: 20px;
+  background-image: linear-gradient(white, white), radial-gradient(circle at bottom right, #FEBDAB 74%, #F3A9F8 66%, #E0D8F0 100%, #EAF7FE 100%, #EAF7FE 100%);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.fourthSection .contentContainer .content .carousele .items .item .top {
+  display: flex;
+  justify-content: flex-start;
+}
+.fourthSection .contentContainer .content .carousele .items .item .top .details {
+  margin: 0 0 0 10px;
+}
+.fourthSection .contentContainer .content .carousele .items .item .top .details p:nth-child(1) {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000000;
+}
+.fourthSection .contentContainer .content .carousele .items .item .top .details p:nth-child(2), .fourthSection .contentContainer .content .carousele .items .item .top .details span {
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #BDBDBD;
+  float: left;
+}
+.fourthSection .contentContainer .content .carousele .items .item .top .details span {
+  margin: 0 0 0 6px;
+}
+.fourthSection .contentContainer .content .carousele .items .item .top .details span::before {
+  content: "• ";
+}
+.fourthSection .contentContainer .content .carousele .items .item .bottom {
+  margin: 11px 0 0 0;
+}
+.fourthSection .contentContainer .content .carousele .items .item .bottom p {
+  max-width: 237px;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 18px;
+  color: #767474;
+}
+.fourthSection .contentContainer .content .btn {
+  width: 298px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 5px;
+}
+.fourthSection .contentContainer .content .btn p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 54px;
   text-align: center;
   text-transform: uppercase;
   color: #FFFFFF;
