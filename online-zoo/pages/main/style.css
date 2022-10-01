@@ -313,7 +313,9 @@ body {
   color: #333B41;
   max-width: 863px;
 }
-.thirdSection .contentContainer .top p:nth-child(4) span {
+.thirdSection .contentContainer .top p:nth-child(4) a {
+  text-decoration: none;
+  color: #333B41;
   border-bottom: 1px solid #FE9013;
 }
 .thirdSection .contentContainer .middle h2 {
@@ -352,6 +354,10 @@ body {
 }
 .thirdSection .contentContainer .FFN {
   margin: 60px auto 0 auto;
+}
+.thirdSection .contentContainer .FFN a {
+  color: white;
+  text-decoration: none;
 }
 
 .fourthSection {
@@ -470,6 +476,10 @@ footer .content ul li a {
 footer .content .left .DFV {
   margin: 68px 0 44px 0;
 }
+footer .content .left .DFV a {
+  text-decoration: none;
+  color: #fff;
+}
 footer .content .left .socialNetworks li {
   width: 26px;
   height: 26px;
@@ -543,6 +553,14 @@ footer .content .right .top form input:nth-child(1):active {
   border: 0.7px solid #4B9200;
   border-radius: 2px;
 }
+footer .content .right .top form input:nth-child(1):valid .top > form > input:nth-child(2) {
+  color: #4B9200;
+  border: 1px solid #4B9200;
+}
+footer .content .right .top form input:nth-child(1):invalid .top > form > input:nth-child(2) {
+  color: #D31414;
+  border: 1px solid #D31414;
+}
 footer .content .right .top form input:nth-child(2) {
   border: none;
   margin-left: 10px;
@@ -554,8 +572,6 @@ footer .content .right .top form input:nth-child(2) {
   font-weight: 400;
   font-size: 16px;
   line-height: 42px;
-  color: #4B9200;
-  border: 1px solid #4B9200;
 }
 footer .content .right .bottom p {
   text-align: right;

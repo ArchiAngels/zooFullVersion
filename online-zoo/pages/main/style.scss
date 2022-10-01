@@ -350,7 +350,9 @@ body{
                 line-height: 21px;
                 color: #333B41;
                 max-width: 863px;
-                span{
+                a{
+                    text-decoration: none;
+                    color: #333B41;
                     border-bottom: 1px solid #FE9013;
                 }
             }
@@ -409,6 +411,10 @@ body{
 
         .FFN{
             margin:60px auto 0 auto;
+            a{
+                color:white;
+                text-decoration: none;
+            }
         }
     }
 }
@@ -554,6 +560,10 @@ footer{
         .left{
             .DFV{
                 margin:68px 0 44px 0;
+                a{
+                    text-decoration: none;
+                    color:#fff;
+                }
             }
 
             .socialNetworks{
@@ -638,9 +648,25 @@ footer{
                             color:#BDBDBD;
 
                         }
+                        
+                    }
+
+                    input:nth-child(1){
                         &:active{
                             border: 0.7px solid #4B9200;
                             border-radius: 2px;
+                        }
+                        &:valid{
+                            .top > form > input:nth-child(2){
+                                color: #4B9200;
+                                border: 1px solid #4B9200;
+                            }
+                        }
+                        &:invalid{
+                            .top > form > input:nth-child(2){
+                                color: #D31414;
+                                border: 1px solid #D31414;
+                            }
                         }
                     }
 
@@ -656,8 +682,7 @@ footer{
                         font-weight: 400;
                         font-size: 16px;
                         line-height: 42px;
-                        color: #4B9200;
-                        border: 1px solid #4B9200;
+                        
 
 
                     }
