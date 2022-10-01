@@ -11,6 +11,13 @@ body{
     margin:0;
     box-sizing: border-box;
 }
+[aria-current="about"],[aria-current="donate"] {
+    pointer-events: none;
+    cursor: default;
+    text-decoration: none;
+    color: black;
+}
+
 .btn-round{
     width:298px;
     height:54px;
