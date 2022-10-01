@@ -10,6 +10,56 @@ body {
   box-sizing: border-box;
 }
 
+.btn-round {
+  width: 298px;
+  height: 54px;
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 25px;
+  cursor: pointer;
+}
+.btn-round p {
+  text-align: center;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 54px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.btn-round:hover {
+  background: #E47209;
+}
+.btn-round:active {
+  background: #4B9200;
+}
+.btn-round:disabled {
+  background: #767474;
+}
+
+.btn-square {
+  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
+  border-radius: 5px;
+  width: 298px;
+  height: 54px;
+  text-align: center;
+  cursor: pointer;
+}
+.btn-square p {
+  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 54px;
+  color: #fff;
+}
+.btn-square:hover {
+  background: #E47209;
+}
+.btn-square:active {
+  background: #4B9200;
+}
+.btn-square:disabled {
+  background: #767474;
+}
+
 .navigator {
   background-color: #000;
   margin: 0 auto;
@@ -90,24 +140,8 @@ body {
 .firstSection .content .circle h1 span {
   color: #FFEE2E;
 }
-.firstSection .content .button {
+.firstSection .content .WO {
   margin: 76px 0 0 auto;
-  width: 298px;
-  height: 54px;
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  border-radius: 25px;
-}
-.firstSection .content .button p {
-  text-align: center;
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 54px;
-  /* or 22px */
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
 }
 
 .secondSection {
@@ -117,20 +151,25 @@ body {
   margin: 0 auto;
   position: relative;
 }
-.secondSection .bottomButton {
-  width: 298px;
-  height: 54px;
-  background-color: #F9804B;
-  text-align: center;
-  border-radius: 25px;
-  margin: 86px auto 0 auto;
+.secondSection .buttonChangeList-left, .secondSection .buttonChangeList-right {
+  cursor: pointer;
+  width: 62px;
+  height: 62px;
 }
-.secondSection .bottomButton p {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 54px;
-  color: #fff;
+.secondSection .buttonChangeList-left {
+  background-image: url("../../assets/icons/arrowLeftYellow.png");
+}
+.secondSection .buttonChangeList-left:active {
+  background-image: url("../../assets/icons/arrowLeftGreen.png");
+}
+.secondSection .buttonChangeList-right {
+  background-image: url("../../assets/icons/arrowRightYellow.png");
+}
+.secondSection .buttonChangeList-right:active {
+  background-image: url("../../assets/icons/arrowRightGreen.png");
+}
+.secondSection .CYF {
+  margin: 86px auto 0 auto;
 }
 .secondSection .content {
   width: 1322px;
@@ -311,21 +350,8 @@ body {
 .thirdSection .contentContainer .middle .content .arrowRight {
   margin: 60px 0 0 0;
 }
-.thirdSection .contentContainer .btn {
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  width: 298px;
-  height: 54px;
-  border-radius: 25px;
+.thirdSection .contentContainer .FFN {
   margin: 60px auto 0 auto;
-}
-.thirdSection .contentContainer .btn p {
-  text-align: center;
-  line-height: 54px;
-  font-weight: 500;
-  font-size: 16px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
 }
 
 .fourthSection {
@@ -414,20 +440,6 @@ body {
   line-height: 18px;
   color: #767474;
 }
-.fourthSection .contentContainer .content .btn {
-  width: 298px;
-  height: 54px;
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  border-radius: 5px;
-}
-.fourthSection .contentContainer .content .btn p {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 54px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-}
 
 footer {
   width: 100vw;
@@ -455,20 +467,8 @@ footer .content ul li a {
   text-decoration: none;
   color: #fff;
 }
-footer .content .left .button {
-  text-align: center;
-  width: 298px;
-  height: 54px;
-  background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
-  border-radius: 5px;
+footer .content .left .DFV {
   margin: 68px 0 44px 0;
-}
-footer .content .left .button p {
-  text-transform: uppercase;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 54px;
-  color: #fff;
 }
 footer .content .left .socialNetworks li {
   width: 26px;
@@ -538,6 +538,10 @@ footer .content .right .top form input:nth-child(1) {
 }
 footer .content .right .top form input:nth-child(1)[placeholder] {
   color: #BDBDBD;
+}
+footer .content .right .top form input:nth-child(1):active {
+  border: 0.7px solid #4B9200;
+  border-radius: 2px;
 }
 footer .content .right .top form input:nth-child(2) {
   border: none;
