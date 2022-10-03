@@ -11,7 +11,7 @@ body{
     margin:0;
     box-sizing: border-box;
 }
-[aria-current="about"],[aria-current="donate"] {
+[aria-current="current"] {
     pointer-events: none;
     cursor: default;
     text-decoration: none;
