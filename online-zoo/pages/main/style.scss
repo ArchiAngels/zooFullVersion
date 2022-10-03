@@ -83,7 +83,7 @@ body{
         
         ul{
             
-            @media (min-width:1001px){
+            @media (min-width:1599px){
                 width: ($maxSize - 440px);
                 margin:0 auto;
                 
@@ -152,7 +152,7 @@ body{
        
         width:100%;
         
-        @media (min-width:1001px) {
+        @media (min-width:1599px) {
             height:700px;
             background: url('../../assets/images/G_panda.jpg') 0 -80px no-repeat;
         }
@@ -166,7 +166,7 @@ body{
         
         
         
-        @media (min-width:1001px) {
+        @media (min-width:1599px) {
             right:328px;
             top:12px;
             z-index: 3;
@@ -180,7 +180,7 @@ body{
             
             background: linear-gradient(113.96deg, #F9804B 1.49%, #FE9013 101.44%);
             border-radius: 50%;
-            @media (min-width:1001px) {
+            @media (min-width:1599px) {
                 width: 465px;
                 height: 465px;
                 h1{
@@ -227,7 +227,7 @@ body{
 .secondSection{
     width:100vw;
     max-width: $maxSize;
-    @media (min-width:1001px){
+    @media (min-width:1599px){
         padding:100px 140px 140px 138px;
     }
     @media (max-width:1000px){
@@ -268,7 +268,7 @@ body{
     }
     .content{
 
-        @media (min-width:1001px){
+        @media (min-width:1599px){
             width:1322px;
             
         }
@@ -277,7 +277,7 @@ body{
         }
         margin:0 auto;
         .top{
-            @media (min-width:1001px){
+            @media (min-width:1599px){
                 width:1161px;
                 margin:0 auto;
             }
@@ -317,7 +317,7 @@ body{
                 }
             }
             .left{
-                @media (min-width:1001px){
+                @media (min-width:1599px){
                     img{
                         width:609px;
 
@@ -333,7 +333,7 @@ body{
         }
 
         .animalsContainer{
-            @media (min-width:1001px){
+            @media (min-width:1599px){
                 width:1322px;
                 margin:180px auto 0 auto;
             }
@@ -350,7 +350,7 @@ body{
 
         .content {
 
-            @media (min-width:1001px){
+            @media (min-width:1599px){
                 width:1158px;
             }
             @media (max-width:1000px){
@@ -361,7 +361,7 @@ body{
             
             display:grid;
             grid-template-columns: repeat(3,1fr);
-            @media (min-width:1001px){
+            @media (min-width:1599px){
             
                 column-gap: 30px;
                 row-gap: 20px;
@@ -377,7 +377,7 @@ body{
             .animal{
                 border-radius: 5px;
                 border:1px solid #FA6F32;
-                @media (min-width:1001px){
+                @media (min-width:1599px){
                         .picture {
                             img{
                                 width:366px;
@@ -399,7 +399,7 @@ body{
                         }
                 }
                 .details{
-                    @media (min-width:1001px){
+                    @media (min-width:1599px){
 
                         width:338px;
                         margin:8px auto;
@@ -440,7 +440,7 @@ body{
         }
         div:nth-child(1){
             
-            @media (min-width:1001px){
+            @media (min-width:1599px){
                 top:0;
             right:0;
             }
