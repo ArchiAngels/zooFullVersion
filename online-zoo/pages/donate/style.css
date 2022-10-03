@@ -200,6 +200,92 @@ body {
   height: 286px;
   background-image: url("../../assets/icons/panda_widget1.png");
 }
+.secondSection .contentContainer .content .bottom .bottom form p:nth-child(1) {
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.secondSection .contentContainer .content .bottom .bottom form .radioRange {
+  width: 976px;
+  background: #404950;
+  border-radius: 2px;
+  height: 27px;
+  padding: 5px;
+}
+.secondSection .contentContainer .content .bottom .bottom form .radioRange input {
+  margin: 0 auto;
+  width: 900px;
+  display: block;
+}
+.secondSection .contentContainer .content .bottom .bottom form .radioRange input:active > .secondSection .contentContainer .content .bottom .bottom form .radioRange input:active > p > span:nth-child(2) {
+  color: red;
+}
+.secondSection .contentContainer .content .bottom .bottom form .radioRange p {
+  margin: 0 auto;
+  justify-content: center;
+  width: 950px;
+  grid-template-columns: repeat(8, 1fr);
+  display: grid;
+}
+.secondSection .contentContainer .content .bottom .bottom form .radioRange p span {
+  text-align: center;
+}
+.secondSection .contentContainer .content .bottom .bottom form .radioRange p span:nth-child(1) {
+  text-align: center;
+  color: red;
+}
+.secondSection .contentContainer .content .bottom .bottom form .anotherOptions {
+  margin: 99px auto;
+}
+.secondSection .contentContainer .content .bottom .bottom form .anotherOptions input[name=amount] {
+  margin: 0 auto;
+  display: block;
+  width: 268px;
+  height: 54px;
+  border: 1px solid #929699;
+  border-radius: 2px;
+  padding: 9px 16px;
+  background-color: transparent;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 54px;
+  color: #929699;
+}
+.secondSection .contentContainer .content .bottom .bottom form .anotherOptions .times {
+  margin: 25px auto 0 auto;
+  width: 218px;
+  border: none;
+}
+.secondSection .contentContainer .content .bottom .bottom form .anotherOptions .times div {
+  display: flex;
+  justify-content: space-between;
+}
+.secondSection .contentContainer .content .bottom .bottom form .anotherOptions .times label {
+  cursor: pointer;
+  margin: 0 0 0 10px;
+  font-weight: 400;
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #333B41;
+}
+.secondSection .contentContainer .content .bottom .bottom form .anotherOptions input[type=submit] {
+  display: block;
+  margin: 47px auto 0 auto;
+  outline: none;
+  font-weight: 500;
+  font-size: 16px;
+  border: none;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.secondSection .contentContainer .content .bottom .bottom form p:nth-last-child(1) {
+  margin: 30px 0 0 0;
+  text-align: center;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333B41;
+}
 
 footer {
   width: 100vw;
